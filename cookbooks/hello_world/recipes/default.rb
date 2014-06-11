@@ -7,3 +7,8 @@
 # All rights reserved - Do Not Redistribute
 rightscale_marker
 log "Hello World! You should try Chef with RightScale!"
+
+
+file "#{ENV['HOME']}/welcome.txt" do
+  content "Welcome to Chef\n"
+  end
