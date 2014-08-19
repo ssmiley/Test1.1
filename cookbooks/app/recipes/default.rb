@@ -14,5 +14,5 @@ end
 
 template '/var/www/html/index.html' do
    source 'index.html.erb'
-   mode 0755
+   mode "0755"
 end
