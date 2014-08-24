@@ -8,3 +8,4 @@ version          '0.1.0'
 
 
 recipe "app::default","Installs and starts the Apache package."
+recipe "app:nginx","Installs and starts the Nginx package."
