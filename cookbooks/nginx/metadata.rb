@@ -8,4 +8,4 @@ version          '0.1.0'
 
 depends "rightscale"
 
-recipe "nginx:default","Installs and starts the nginx web servicei."
+recipe "nginx::default","Installs and starts the nginx web servicei."
