@@ -28,4 +28,5 @@ attribute "awscli/region",
   :display_name => "AWS Region",
   :description => "The AWS region where your instances are running",
   :required => "required",
+  :default => "us-west-1",
   :recipes => ['awscli::aws_config']
