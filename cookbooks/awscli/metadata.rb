@@ -27,7 +27,6 @@ attribute "awscli/secret_access_key",
 # Required Input #
 attribute "awscli/region",
   :display_name => "AWS Region",
-  :description => "The AWS region where your instances are running",
+  :description => "The AWS region where your instances are running, ex. us-west-1",
   :required => "required",
-  :default => "us-west-1",
   :recipes => ['awscli::aws_config']
